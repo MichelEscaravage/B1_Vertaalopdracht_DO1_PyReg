@@ -82,6 +82,7 @@ while(not keuze == "9" ):
         print ("Retour:           " + str(dagTotaalTerug))
         print ("In kassa:         " + str( bedragInKassaBegin + dagTotaal - dagTotaalTerug ))
         input("Druk op <ENTER> om door te gaan.")
+
 inKassa = float(input("Hoeveel zit er nu in de kassa?")) 
 while(not inKassa == (bedragInKassaBegin + dagTotaal - dagTotaalTerug )):
     print("Je hebt een kassaverschil! Tel de kassa opnieuw")
